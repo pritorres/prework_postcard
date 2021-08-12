@@ -6,6 +6,7 @@ body {
 	min-height: 10px;
 }
 .postcard {
+	padding: 5px;
 	background: white;
 	width: 400px;
 	height: 300px;
@@ -28,4 +29,28 @@ h1 {
 }
 .postcard-body {
 	display: flex;
+}
+.body-right, .body-left {
+	padding: 5px;
+}
+
+.body-right input {
+	appearance: none;
+    border: none;
+    padding: 7px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.postcard-footer {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	padding: 10px;
+}
+
+.postcard-footer button {
+	appearance: none;
+	 height: 30px;
+	 width: 150px;
+	 background-color: rgb(212, 212, 212);
 }
